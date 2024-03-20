@@ -4,9 +4,9 @@ from twilio.rest import Client
 # from twilio.http.http_client import TwilioHttpClient for ref. see 317 time_stamp 4:00
 
 OWM_ENDPOINT = "https://api.openweathermap.org/data/2.5/forecast"
-api_key = "2bd6dbc67eb62f17bfdbefeeec94d5bb"  # os.environ.get("OWM_API_KEY")
+api_key = "OWM_API_KEY"  # os.environ.get("OWM_API_KEY")
 account_sid = "ACb18cf2014d34e5c4fd3b365892a06127"
-auth_token = "3368a068ed3986515753bd21417358d5"  # os.environ.get("AUTH_TOKEN")
+auth_token = "AUTH_TOKEN"  # os.environ.get("AUTH_TOKEN")
 
 weather_params = {
     "lat": 13.19165,
