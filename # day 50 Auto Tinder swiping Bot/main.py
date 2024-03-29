@@ -3,8 +3,8 @@
 # from selenium.webdriver.common.keys import Keys
 # from time import sleep
 #
-# ACCOUNT_NUMBER = "6379468663"
-# ACCOUNT_PASSWORD = '@02pushpakumar'
+# ACCOUNT_NUMBER = "...."
+# ACCOUNT_PASSWORD = '....'
 #
 #
 # #  Keep the browser open (helps diagnose issues if the script crashes)
@@ -55,8 +55,8 @@ from selenium.webdriver.common.keys import Keys
 from selenium.common.exceptions import ElementClickInterceptedException, NoSuchElementException
 from time import sleep
 
-FB_EMAIL = '6379468663'
-FB_PASSWORD = '@02pushpakumar'
+FB_EMAIL = '.....'
+FB_PASSWORD = '.....'
 
 driver = webdriver.Chrome()
 
