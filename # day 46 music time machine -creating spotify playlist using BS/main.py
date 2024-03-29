@@ -3,8 +3,8 @@ import requests
 import spotipy
 from spotipy.oauth2 import SpotifyOAuth
 
-CLIENT_ID = "1d78f9c79b8e49ffa0d8748b13e180ca"
-CLIENT_SCERET = "0e6a24715ebb4bc9bd02569ba83bc6fa"
+CLIENT_ID = "..."
+CLIENT_SCERET = "..."
 
 URl = "https://www.billboard.com/charts/hot-100/"
 
