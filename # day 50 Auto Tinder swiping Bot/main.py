@@ -1,54 +1,3 @@
-# from selenium import webdriver
-# from selenium.webdriver.common.by import By
-# from selenium.webdriver.common.keys import Keys
-# from time import sleep
-#
-# ACCOUNT_NUMBER = "...."
-# ACCOUNT_PASSWORD = '....'
-#
-#
-# #  Keep the browser open (helps diagnose issues if the script crashes)
-# chrome_options = webdriver.ChromeOptions()
-# chrome_options.add_experimental_option("detach", True)
-#
-# driver = webdriver.Chrome(options=chrome_options)
-# driver.get("https://tinder.com/app/recs")
-#
-# sleep(2)
-# accept = driver.find_element(By.XPATH, value='//*[@id="t425926696"]/div/div[2]/div/div/div[1]/div[1]/button/div[2]/div[2]/div')
-# accept.click()
-#
-# sleep(2)
-# login_button = driver.find_element(By.XPATH, value='//*[@id="t425926696"]/div/div[1]/div/main/div[1]/div/div/div/div/header/div/div[2]/div[2]/a/div[2]/div[2]/div')
-# login_button.click()
-#
-# sleep(2)
-# more_option = driver.find_element(By.XPATH, value='//*[@id="t-1302454380"]/main/div/div/div[1]/div/div/div[2]/div[2]/span/button')
-# more_option.click()
-#
-#
-# sleep(2)
-# fb_login = driver.find_element(By.XPATH, value='//*[@id="t-1302454380"]/main/div/div/div[1]/div/div/div[2]/div[2]/span/div[2]/button/div[2]/div[2]/div/div/div')
-# fb_login.click()
-#
-# # #Switch to Facebook login window
-# # sleep(2)
-# # base_window = driver.window_handles[0]
-# # fb_login_window = driver.window_handles[1]
-# # driver.switch_to.window(fb_login_window)
-# # print(driver.title)
-#
-# # Login and hit enter
-# sleep(2)
-# email = driver.find_element(by=By.NAME, value='email')
-# email.send_keys(ACCOUNT_NUMBER)
-# password = driver.find_element(by=By.NAME, value='pass')
-# password.send_keys(ACCOUNT_PASSWORD)
-# password.send_keys(Keys.ENTER)
-#
-# #Switch back to Tinder window
-# driver.switch_to.window(base_window)
-# print(driver.title)
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
@@ -119,3 +68,57 @@ for n in range(100):
             sleep(2)
 
 driver.quit()
+
+
+
+# from selenium import webdriver
+# from selenium.webdriver.common.by import By
+# from selenium.webdriver.common.keys import Keys
+# from time import sleep
+#
+# ACCOUNT_NUMBER = "...."
+# ACCOUNT_PASSWORD = '....'
+#
+#
+# #  Keep the browser open (helps diagnose issues if the script crashes)
+# chrome_options = webdriver.ChromeOptions()
+# chrome_options.add_experimental_option("detach", True)
+#
+# driver = webdriver.Chrome(options=chrome_options)
+# driver.get("https://tinder.com/app/recs")
+#
+# sleep(2)
+# accept = driver.find_element(By.XPATH, value='//*[@id="t425926696"]/div/div[2]/div/div/div[1]/div[1]/button/div[2]/div[2]/div')
+# accept.click()
+#
+# sleep(2)
+# login_button = driver.find_element(By.XPATH, value='//*[@id="t425926696"]/div/div[1]/div/main/div[1]/div/div/div/div/header/div/div[2]/div[2]/a/div[2]/div[2]/div')
+# login_button.click()
+#
+# sleep(2)
+# more_option = driver.find_element(By.XPATH, value='//*[@id="t-1302454380"]/main/div/div/div[1]/div/div/div[2]/div[2]/span/button')
+# more_option.click()
+#
+#
+# sleep(2)
+# fb_login = driver.find_element(By.XPATH, value='//*[@id="t-1302454380"]/main/div/div/div[1]/div/div/div[2]/div[2]/span/div[2]/button/div[2]/div[2]/div/div/div')
+# fb_login.click()
+#
+# # #Switch to Facebook login window
+# # sleep(2)
+# # base_window = driver.window_handles[0]
+# # fb_login_window = driver.window_handles[1]
+# # driver.switch_to.window(fb_login_window)
+# # print(driver.title)
+#
+# # Login and hit enter
+# sleep(2)
+# email = driver.find_element(by=By.NAME, value='email')
+# email.send_keys(ACCOUNT_NUMBER)
+# password = driver.find_element(by=By.NAME, value='pass')
+# password.send_keys(ACCOUNT_PASSWORD)
+# password.send_keys(Keys.ENTER)
+#
+# #Switch back to Tinder window
+# driver.switch_to.window(base_window)
+# print(driver.title)
