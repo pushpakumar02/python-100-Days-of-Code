@@ -1,5 +1,5 @@
 # 100 days of code
-This repo is a sample of the work done has a part of 100 days of code.
+This repo is a sample of the work done has a part of [100 days of code](https://github.com/appbrewery/100-days-of-python?tab=readme-ov-file).
 
 ## BEGINNER PYTHON    | Day 1 - Day 14
 - Variables in Python
@@ -110,7 +110,7 @@ This repo is a sample of the work done has a part of 100 days of code.
 - Residuals Analysis
 
 ## PROFESSIONAL PORTFOLIO  | Day 82 - Day 100
-- BUILDING INDEPENDENT ASSIGNMENTS
+## BUILDING INDEPENDENT ASSIGNMENTS
   - Text to Morse Code Converter
   - Portfolio Website
   - Tic Tac Toe Game
