@@ -1,7 +1,7 @@
 # 100 days of code
 This repo is a sample of the work done has a part of 100 days of code.
 
-## BEGINNER PYTHON
+## BEGINNER PYTHON    | Day 1 - Day 14
 - Variables in Python
 - String Manipulation
 - Input and Print Functions
@@ -27,7 +27,7 @@ This repo is a sample of the work done has a part of 100 days of code.
 - Scope and Local/Global Variables
 - Debugging Techniques
 
-## INTERMEDIATE PYTHON
+## INTERMEDIATE PYTHON  | Day 15 - Day 31
 - Local Development Environment Setup
 - PyCharm Tips and Tricks
 - Python Object Oriented Programming
@@ -61,7 +61,7 @@ This repo is a sample of the work done has a part of 100 days of code.
 - Working with date and time
 - Hosting Python Code Online with PythonAnywhere
 
-## INTERMEDIATE +
+## INTERMEDIATE +   | Day 32 - Day 58
 - APIs
 - Making HTTP Requests with the Requests module
 - Sending Parameters with the Request
@@ -79,7 +79,7 @@ This repo is a sample of the work done has a part of 100 days of code.
 - Templating with Jinja 2
 - WTForms
 
-## ADVANCED PYTHON
+## ADVANCED PYTHON  | Day 59 - Day 81
 - Build Your Own REST API with Python
 - Build Your Own Blog
 - Databases with SQLite
@@ -109,8 +109,8 @@ This repo is a sample of the work done has a part of 100 days of code.
 - Log Transformations
 - Residuals Analysis
 
-## PROFESSIONAL PORTFOLIO 
-## BUILDING INDEPENDENT ASSIGNMENTS
+## PROFESSIONAL PORTFOLIO  | Day 82 - Day 100
+- BUILDING INDEPENDENT ASSIGNMENTS
   - Text to Morse Code Converter
   - Portfolio Website
   - Tic Tac Toe Game
