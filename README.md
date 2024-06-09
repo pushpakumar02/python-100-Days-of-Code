@@ -110,7 +110,7 @@ This repo is a sample of the work done has a part of [100 days of code](https://
 - Residuals Analysis
 
 ## PROFESSIONAL PORTFOLIO  | Day 82 - Day 100
-## BUILDING INDEPENDENT ASSIGNMENTS
+### BUILDING INDEPENDENT ASSIGNMENTS
   - Text to Morse Code Converter
   - [Portfolio Website](https://github.com/Pushpakumar02/pushpakumar02.github.io)
   - Tic Tac Toe Game
