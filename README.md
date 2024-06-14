@@ -111,7 +111,7 @@ This repo is a sample of the work done has a part of [100 days of code](https://
 
 ## PROFESSIONAL PORTFOLIO  | Day 82 - Day 100
 ### BUILDING INDEPENDENT ASSIGNMENTS
-  - Text to Morse Code Converter
+  - [Text to Morse Code Converter](https://github.com/Pushpakumar02/python-100-Days-of-Code/blob/main/082-day%20%20text_to_morse_converter/main.py)
   - [Portfolio Website](https://github.com/Pushpakumar02/pushpakumar02.github.io)
   - Tic Tac Toe Game
   - Image Watermarking App
